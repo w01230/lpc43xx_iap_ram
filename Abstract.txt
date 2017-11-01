@@ -1,0 +1,37 @@
+The 'CM4 Blinky' project is a simple program for the LPC4357
+microcontroller using Keil 'MCB4300' Evaluation Board, compliant 
+to Cortex Microcontroller Software Interface Standard (CMSIS v2.0).
+
+This example demonstrates how to configure dual core application project
+in order to use Cortex-M0 (CM0) core together with the Cortex-M4 (CM4) core.
+
+Example functionality:                                                   
+ - Clock Settings:
+   - XTAL =  12.00 MHz
+   - CPU  = 180.00 MHz (CM0 and CM4 are running with the same clock frequency)
+
+ - SysTick Timer is used in interrupt mode
+ - LED PD_10 is toggled with the speed depending on SysTick Timer interrupt period
+
+ - LED PD_13 is toggled using Cortex-M0 core event interrupt
+ 
+ - CM4 application must load CM0 application image into LPC4350 internal RAM
+   and release CM0 core from reset. CM0 application image can be found in the
+   file CM0_Image.c which is build using CM0 Blinky project.
+
+ - SEV instruction is used to trigger core event interrupt
+
+
+The CM4 Blinky program is available for different targets:
+
+  LPC4357 Flash:       configured for on-chip Flash
+                       Valid Flash Signature is created with ElfDwT tool.
+                       See "Options for Target" - "User")
+
+  LPC4357 RAM:         runs from Internal RAM located on chip
+                       (may be used for target debugging)
+
+  LPC4357 Ext. Flash:  runs from NOR Flash located on board
+                       (used for production or target debugging)
+                       Set jumpers for boot pins to boot from External Flash
+                       and press RESET button while holding down ISP button!
