@@ -4,8 +4,8 @@ ide:keil v5
 ## swd samples
 
 <pre><code>
-  ```C
   /* set sp/pc/xpsr/vector table/shadow pointer */
+   ```C
   state |= writeCore(CORTEXMX_WR_R(13), sp);
   state |= writeCore(CORTEXMX_WR_R(14), 0xFFFFFFFF);
   state |= writeCore(CORTEXMX_WR_R(15), pc | 1);
@@ -14,7 +14,7 @@ ide:keil v5
   state |= writeMem(m_NVIC_base_address + VECTOR_TABLE, CODE_DATA);
   state |= writeMem(SHADOW_POINTER, CODE_DATA);
 
-  /* run the core */ <br>
+  /* run the core */
   state |= writeMem(m_NVIC_base_address + DHCSR_ADDR_OFFSET, DHCSR_C_DEBUGEN);
 </code></pre>
 ## note
