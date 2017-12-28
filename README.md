@@ -17,5 +17,5 @@ ide:keil v5
   state |= writemem(nvic_base_address + DHCSR_ADDR_OFFSET, DHCSR_C_DEBUGEN);
  ```
 ## note
-load code to ram by SWD and send data source and command via SWD.
+load code to ram by SWD then send data source and command via SWD.
 
