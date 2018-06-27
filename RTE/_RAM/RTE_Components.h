@@ -4,7 +4,7 @@
  *      *** Do not modify ! ***
  *
  * Project: 'nxp_lpc43xx' 
- * Target:  'lpc4357_ram' 
+ * Target:  'RAM' 
  */
 
 #ifndef RTE_COMPONENTS_H

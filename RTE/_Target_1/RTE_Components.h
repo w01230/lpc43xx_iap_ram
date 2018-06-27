@@ -3,8 +3,8 @@
  * Auto generated Run-Time-Environment Component Configuration File
  *      *** Do not modify ! ***
  *
- * Project: 'Blinky' 
- * Target:  'LPC4357 Ext. Flash' 
+ * Project: 'nxp_lpc43xx' 
+ * Target:  'Target 1' 
  */
 
 #ifndef RTE_COMPONENTS_H

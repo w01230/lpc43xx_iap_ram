@@ -81,7 +81,7 @@
 /*----------------------------------------------------------------------------
   Define clock sources
  *----------------------------------------------------------------------------*/
-#define PLL1_CLK_SEL      CLK_SRC_IRC     /* PLL1 input clock: XTAL           */
+#define PLL1_CLK_SEL      CLK_SRC_IRC     /* PLL1 input clock: IRC           */
 #define PLL0USB_CLK_SEL   CLK_SRC_XTAL    /* PLL0USB input clock: XTAL        */
 #define IDIVA_CLK_SEL     CLK_SRC_PLL1    /* IDIVA input clock: PLL1          */
 #define IDIVB_CLK_SEL     CLK_SRC_ENET_TX /* IDIVB input clock: ENET TX       */

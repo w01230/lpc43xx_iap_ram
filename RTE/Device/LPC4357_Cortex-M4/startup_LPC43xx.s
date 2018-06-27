@@ -20,6 +20,7 @@
 ; * ARM SHALL NOT, IN ANY CIRCUMSTANCES, BE LIABLE FOR SPECIAL, INCIDENTAL, OR
 ; * CONSEQUENTIAL DAMAGES, FOR ANY REASON WHATSOEVER.
 ; *
+; * <<< Use Configuration Wizard in Context Menu >>>   
 ; ******************************************************************************/
 
 ; <h> Stack Configuration
@@ -37,7 +38,7 @@ __initial_sp
 ;   <o>  Heap Size (in Bytes) <0x0-0xFFFFFFFF:8>
 ; </h>
 
-Heap_Size       EQU     0x00000800
+Heap_Size       EQU     0x00000400
 
                 AREA    HEAP, NOINIT, READWRITE, ALIGN=3
 __heap_base
@@ -77,7 +78,7 @@ __Vectors       DCD     __initial_sp                            ;  0  Top of Sta
                 DCD     DMA_IRQHandler                          ;  2  DMA interrupt
                 DCD     0                                       ;  3  Reserved
                 DCD     FLASHEEPROM_IRQHandler                  ;  4  flash bank A, flash bank B, EEPROM ORed interrupt
-                DCD     ETHERNET_IRQHandler                     ;  5  Etherne interrupt
+                DCD     ETHERNET_IRQHandler                     ;  5  Ethernet interrupt
                 DCD     SDIO_IRQHandler                         ;  6  SD/MMC interrupt
                 DCD     LCD_IRQHandler                          ;  7  LCD interrupt
                 DCD     USB0_IRQHandler                         ;  8  OTG interrupt

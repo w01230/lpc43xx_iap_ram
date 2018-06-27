@@ -1,0 +1,13 @@
+--cpu=Cortex-M4.fp
+".\objects\eeprom.o"
+".\objects\flash.o"
+".\objects\crc32.o"
+".\objects\boot_op.o"
+".\objects\main.o"
+".\objects\otp.o"
+".\objects\startup_lpc43xx.o"
+".\objects\system_lpc43xx.o"
+--strict --scatter ".\Objects\nxp_lpc43xx.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\nxp_lpc43xx.map" -o .\Objects\nxp_lpc43xx.axf

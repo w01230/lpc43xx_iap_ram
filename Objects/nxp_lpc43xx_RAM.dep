@@ -1,0 +1,52 @@
+Dependencies for Project 'nxp_lpc43xx', Target 'RAM': (DO NOT MODIFY !)
+F (.\Source\eeprom.c)(0x593DF74E)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -g -O2 --apcs=interwork --split_sections --signed_chars-I.\RTE\Device\LPC4357_Cortex-M4-I.\RTE\_RAM-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC4300_DFP\2.7.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DCORE_M4-o .\objects\eeprom.o --omf_browse .\objects\eeprom.crf --depend .\objects\eeprom.d)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC4300_DFP\2.7.0\Device\Include\LPC43xx.h)(0x54C0979C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h)(0x5898498A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC4300_DFP\2.7.0\Device\Include\system_LPC43xx.h)(0x57035A5E)
+I (Source\crc32.h)(0x5938B582)
+I (Source\boot_op.h)(0x593DF1BE)
+I (Source\eeprom.h)(0x593DE274)
+F (.\Source\flash.c)(0x593DF73F)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -g -O2 --apcs=interwork --split_sections --signed_chars-I.\RTE\Device\LPC4357_Cortex-M4-I.\RTE\_RAM-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC4300_DFP\2.7.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DCORE_M4-o .\objects\flash.o --omf_browse .\objects\flash.crf --depend .\objects\flash.d)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC4300_DFP\2.7.0\Device\Include\LPC43xx.h)(0x54C0979C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h)(0x5898498A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC4300_DFP\2.7.0\Device\Include\system_LPC43xx.h)(0x57035A5E)
+I (Source\crc32.h)(0x5938B582)
+I (Source\boot_op.h)(0x593DF1BE)
+I (Source\flash.h)(0x593DDFA2)
+F (.\Source\crc32.c)(0x5938B51C)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -g -O2 --apcs=interwork --split_sections --signed_chars-I.\RTE\Device\LPC4357_Cortex-M4-I.\RTE\_RAM-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC4300_DFP\2.7.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DCORE_M4-o .\objects\crc32.o --omf_browse .\objects\crc32.crf --depend .\objects\crc32.d)
+I (Source\crc32.h)(0x5938B582)
+F (.\Source\boot_op.c)(0x593DF731)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -g -O2 --apcs=interwork --split_sections --signed_chars-I.\RTE\Device\LPC4357_Cortex-M4-I.\RTE\_RAM-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC4300_DFP\2.7.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DCORE_M4-o .\objects\boot_op.o --omf_browse .\objects\boot_op.crf --depend .\objects\boot_op.d)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC4300_DFP\2.7.0\Device\Include\LPC43xx.h)(0x54C0979C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h)(0x5898498A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC4300_DFP\2.7.0\Device\Include\system_LPC43xx.h)(0x57035A5E)
+I (Source\flash.h)(0x593DDFA2)
+I (Source\eeprom.h)(0x593DE274)
+I (Source\boot_op.h)(0x593DF1BE)
+F (.\Source\main.c)(0x593DFA79)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -g -O2 --apcs=interwork --split_sections --signed_chars-I.\RTE\Device\LPC4357_Cortex-M4-I.\RTE\_RAM-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC4300_DFP\2.7.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DCORE_M4-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC4300_DFP\2.7.0\Device\Include\LPC43xx.h)(0x54C0979C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h)(0x5898498A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC4300_DFP\2.7.0\Device\Include\system_LPC43xx.h)(0x57035A5E)
+I (Source\boot_op.h)(0x593DF1BE)
+F (RTE\Device\LPC4357_Cortex-M4\RTE_Device.h)(0x5731320C)()
+F (RTE\Device\LPC4357_Cortex-M4\startup_LPC43xx.s)(0x593DFA2F)(--cpu Cortex-M4.fp --pd "__EVAL SETA 1" -g --apcs=interwork -I.\RTE\Device\LPC4357_Cortex-M4-I.\RTE\_RAM-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC4300_DFP\2.7.0\Device\Include--pd "__UVISION_VERSION SETA 523" --pd "_RTE_ SETA 1" --pd "CORE_M4 SETA 1"--list .\listings\startup_lpc43xx.lst --xref -o .\objects\startup_lpc43xx.o --depend .\objects\startup_lpc43xx.d)
+F (RTE\Device\LPC4357_Cortex-M4\system_LPC43xx.c)(0x593DF687)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -g -O2 --apcs=interwork --split_sections --signed_chars-I.\RTE\Device\LPC4357_Cortex-M4-I.\RTE\_RAM-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC4300_DFP\2.7.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DCORE_M4-o .\objects\system_lpc43xx.o --omf_browse .\objects\system_lpc43xx.crf --depend .\objects\system_lpc43xx.d)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC4300_DFP\2.7.0\Device\Include\LPC43xx.h)(0x54C0979C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h)(0x5898498A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC4300_DFP\2.7.0\Device\Include\system_LPC43xx.h)(0x57035A5E)
