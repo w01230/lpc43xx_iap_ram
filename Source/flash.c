@@ -42,9 +42,9 @@ static int iap_prepare_for_write(unsigned long start, unsigned long end, unsigne
 	struct iap_struct iap_data;
 	
 	iap_data.command = PREPARE_FOR_WRITE;
-	iap_data.parameter[0] = start,
-	iap_data.parameter[1] = end,
-	iap_data.parameter[2] = bank,
+	iap_data.parameter[0] = start;
+	iap_data.parameter[1] = end;
+	iap_data.parameter[2] = bank;
 	iap_operation(&iap_data.command, &iap_data.state);
 	
 	if (iap_data.state != CMD_SUCCESS)
@@ -65,10 +65,10 @@ static int iap_copy_ram_to_flash(unsigned long destination, unsigned char *sourc
 	struct iap_struct iap_data;
 	
 	iap_data.command = COPY_RAM_TO_FLASH;
-	iap_data.parameter[0] = destination,
-	iap_data.parameter[1] = (unsigned long)source,
-	iap_data.parameter[2] = length,
-	iap_data.parameter[3] = cpu_khz,
+	iap_data.parameter[0] = destination;
+	iap_data.parameter[1] = (unsigned long)source;
+	iap_data.parameter[2] = length;
+	iap_data.parameter[3] = cpu_khz;
 	iap_operation(&iap_data.command, &iap_data.state);
 	
 	if (iap_data.state != CMD_SUCCESS)
@@ -89,10 +89,10 @@ static int iap_erase_sector(unsigned long start, unsigned long end, unsigned lon
 	struct iap_struct iap_data;
 	
 	iap_data.command = ERASE_SECTORS;
-	iap_data.parameter[0] = start,
-	iap_data.parameter[1] = end,
-	iap_data.parameter[2] = cpu_khz,
-	iap_data.parameter[3] = bank,
+	iap_data.parameter[0] = start;
+	iap_data.parameter[1] = end;
+	iap_data.parameter[2] = cpu_khz;
+	iap_data.parameter[3] = bank;
 	iap_operation(&iap_data.command, &iap_data.state);
 	
 	if (iap_data.state != CMD_SUCCESS)
@@ -136,9 +136,9 @@ static int iap_blankcheck_sector(unsigned long start, unsigned long end, unsigne
 	struct iap_struct iap_data;
 	
 	iap_data.command = BLANK_CHECK_SECTORS;
-	iap_data.parameter[0] = start,
-	iap_data.parameter[1] = end,
-	iap_data.parameter[2] = bank,
+	iap_data.parameter[0] = start;
+	iap_data.parameter[1] = end;
+	iap_data.parameter[2] = bank;
 	iap_operation(&iap_data.command, &iap_data.state);
 	
 	if (iap_data.state != CMD_SUCCESS)
@@ -179,9 +179,9 @@ static int iap_compare(unsigned long destination, unsigned char *source, unsigne
 	struct iap_struct iap_data;
 	
 	iap_data.command = COMPARE;
-	iap_data.parameter[0] = destination,
-	iap_data.parameter[1] = (unsigned long)source,
-	iap_data.parameter[2] = length,
+	iap_data.parameter[0] = destination;
+	iap_data.parameter[1] = (unsigned long)source;
+	iap_data.parameter[2] = length;
 	iap_operation(&iap_data.command, &iap_data.state);
 	
 	if (iap_data.state != CMD_SUCCESS)
@@ -202,8 +202,8 @@ static int iap_set_active_boot_bank(unsigned long bank, unsigned cpu_khz)
 	struct iap_struct iap_data;
 	
 	iap_data.command = SET_ACTIVE_BOOT_BANK;
-	iap_data.parameter[0] = bank,
-	iap_data.parameter[1] = cpu_khz,
+	iap_data.parameter[0] = bank;
+	iap_data.parameter[1] = cpu_khz;
 	iap_operation(&iap_data.command, &iap_data.state);
 	
 	if (iap_data.state != CMD_SUCCESS)
