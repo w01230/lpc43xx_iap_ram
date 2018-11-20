@@ -22,7 +22,7 @@ int boot_op(unsigned char *source, struct boot_data_struct *boot_data)
 	int (*handler_b)(void *, void *) = (void *)0;
 	
 	state = flash_handler.init();
-	if (state != BOOTSRC_PINS)
+	if (state != BOOT_SUCCESS)
 		return BOOT_ERROR;
 	
 	state = eeprom_handler.init();
